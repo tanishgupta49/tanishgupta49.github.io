@@ -1,0 +1,40 @@
+body{
+    background-color: pink;
+}
+
+* {
+    box-sizing: border-box;
+}
+.mainContainer{
+    display: flex; 
+    flex-wrap: wrap; 
+}
+
+.itForm{
+    margin: 10px;
+    width: 420px; 
+    border: 3px solid brown; 
+    padding: 10px; 
+    background-color: salmon;
+    flex: 50%; 
+}
+
+.facilitiesForm{
+    margin: 10px;
+    width: 420px; 
+    border: 3px solid navy; 
+    padding: 10px; 
+    background-color: turquoise;
+    flex: 50%; 
+}
+
+@media (max-width: 300px) {
+    .itForm, .facilitiesForm {
+        flex: 100%; 
+    }
+}
+
+
+.txtWidth{
+    width: 400px; 
+}
