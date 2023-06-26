@@ -11,7 +11,7 @@ body{
 }
 
 .itForm{
-    margin: 10px;
+    /* margin: 10px; */
     width: 420px; 
     border: 3px solid brown; 
     padding: 10px; 
@@ -20,7 +20,7 @@ body{
 }
 
 .facilitiesForm{
-    margin: 10px;
+    /* margin: 10px; */
     width: 420px; 
     border: 3px solid navy; 
     padding: 10px; 
